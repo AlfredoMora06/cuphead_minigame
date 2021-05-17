@@ -13,7 +13,7 @@ body{
     font-family: "Fjalla One",sans-serif;
     text-transform: Uppercase;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.6rem;
     color: white;
     font-style: normal;
 }
@@ -22,23 +22,52 @@ body{
   color: white;
 }
 
+.fwd{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+}
+
+
 
 .bg-image{
-    background-image: url('background2.jpg');
+    background-image: url('images/background2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .bg-instr{
-  background-image: url('instructions.jpg');
+  background-image: url('images/instructions.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .bg-story{
-  background-image: url('story.jpg');
+  background-image: url('images/story.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-good{
+  background-image: url('images/good_ending.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-bad{
+  background-image: url('images/bad_ending.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-special{
+  background-image: url('images/special_ending.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
